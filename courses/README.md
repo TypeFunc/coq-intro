@@ -1,8 +1,12 @@
 ## courses
 
 This directory contains materials from courses that teach students how
-to use Coq.  Original sources of these materials are the following:
+to use Coq.  Original sources of these materials can be found by following the
+links listed below.
 
+
++ **Bauer:** [Andrej Bauer's series of YouTube tutorials](http://www.youtube.com/watch?v=COe0VTNF2EA&list=PLDD40A96C2ED54E99&feature=share) (a nice and easy demo of how to get started using Coq).
+  
 <!-- + **cis500:** [Penn: Software Foundations](http://www.seas.upenn.edu/~cis500/current/index.html) by Stephanie Weirich (Fall 2014) -->
 
 + **g52ifr:** [Introduction to Formal Reasoning](http://www.cs.nott.ac.uk/~txa/g52ifr/) by
