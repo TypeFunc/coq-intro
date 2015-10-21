@@ -1,0 +1,60 @@
+\noindent {\bf Preamble.} This is an unofficial pdf version of the Software Foundations book.
+The official version (in html format) is available at\\
+\\
+\url{http://www.cis.upenn.edu/~bcpierce/sf/current/index.html}\\
+\\
+This pdf file was created with the following command
+
+{\small
+\begin{verbatim}
+    coqdoc -t Software Foundations -toc --toc-depth 1 --no-lib-name  /
+        --latex --files-from filelist.txt -o sf.tex 
+\end{verbatim}
+}
+\noindent (The forward slash at the end of the line should not typed.)\\
+\\
+A title page, author list, and this preamble page were added manually 
+(by including the file {\small {\tt title-author-preamble.tex}} in the {\small
+  {\tt sf.tex}} file).  Also, the color option of the coqdoc package was used.  
+More precisely, in the sf.tex file, the line
+{\small 
+\begin{verbatim}
+    \usepackage{coqdoc}
+\end{verbatim}
+}
+was replaced with the lines
+
+{\small 
+\begin{verbatim}
+    \usepackage{xcolor}
+    \usepackage[color]{coqdoc}
+\end{verbatim}
+}
+\noindent Finally, the command {\tt pdflatex sf.tex} was invoked a couple of times to
+produce the final {\tt sf.pdf} file. \\
+\\
+For questions, comments, or suggestions, please send email to
+\href{mailto:williamdemeo@gmail.com}{williamdemeo@gmail.com}, or visit
+\href{https://github.com/TypeFunc/Coq/tree/master/SoftwareFoundations}{the GitHub
+  page} for this project and
+\href{https://github.com/TypeFunc/Coq/issues}{submit an issue}. 
+\newpage
+
+
+\title{Software Foundations}
+
+
+\author{
+Benjamin C. Pierce 
+\\[1ex] Chris Casinghino 
+\\[1ex] Marco Gaboardi 
+\\[1ex] Michael Greenberg 
+\\[1ex] C\v{a}t\v{a}lin Hritcu
+\\[1ex] Vilhelm Sj\"{o}berg
+\\[1ex] Brent Yorgey}
+
+
+
+
+\maketitle
+
