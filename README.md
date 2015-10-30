@@ -1,4 +1,6 @@
-## Coq Resources
+# Coq Resources
+
+## Getting Started
 
 This repository is mainly intended for my research students who are interested
 in learning about the Coq proof assistant. 
@@ -53,7 +55,7 @@ Find the latest version of the Software Foundations book at the official website
 
 ---------------------------------------
 
-### Codifying Mathematics
+## Codifying Mathematics
 
 One of our goals is to implement some mathematics in Coq, both to help us
 better understand what we are doing and to (hopefully) help us push it further.
