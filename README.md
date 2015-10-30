@@ -20,7 +20,8 @@ in learning about the Coq proof assistant.
   [Andrej Bauer's series of YouTube tutorials](http://www.youtube.com/watch?v=COe0VTNF2EA&list=PLDD40A96C2ED54E99&feature=share).
   These videos are probably the fasted way to see exactly how one interacts with
   Coq in the first place. For example, in the video
-  [How to use Coq with Proof General][], Andrej shows how to use Coq to prove
+  [How to use Coq with Proof General](http://youtu.be/l6zqLJQCnzo),
+  Andrej shows how to use Coq to prove
   that Pierce's law is equivalent to the Law of Excluded Middle.  
 
   (Proof General is one way to interact with Coq, which is the great for
@@ -45,17 +46,12 @@ in learning about the Coq proof assistant.
   that an intelligent undergraduate, with a little background in elementary 
   logic, math, and programming, could get through a few chapters of SF per week.
 
-The file sf.tar.gz is the official (as of Feb 18, 2015) version of the book
-Software Foundations.  Find the latest version at the official website for the
-book:
+Find the latest version of the Software Foundations book at the official website:
 
 [http://www.cis.upenn.edu/~bcpierce/sf/current/index.html](http://www.cis.upenn.edu/~bcpierce/sf/current/index.html)
 
-The directory sf-solutions contains a version of the sf book with some of the
-exercises filled in (only up to Chapter 4 or 5, so far).
 
-
-[How to use Coq with Proof General]: http://youtu.be/l6zqLJQCnzo
+---------------------------------------
 
 ### Codifying Mathematics
 
@@ -63,7 +59,7 @@ One of our goals is to implement some mathematics in Coq, both to help us
 better understand what we are doing and to (hopefully) help us push it further.
 
 After learning the basics of Coq, members of the group may wish to try codifying
-some general algebraic structures as **dependent types** or **records** in Coq.
+some general algebraic structures as *dependent types* or *records* in Coq.
 Fortunately, we don't have to start from scratch as there are already a number
 of projects that attempt to do this.  We can study those efforts and learn from
 what they have done and possibly make use of some of their libraries.
