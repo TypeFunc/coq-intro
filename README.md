@@ -66,7 +66,7 @@ an alternative interface to Coq exists, called CoqIDE, about which I know
 absolutely nothing. I installed Coq and Proof General on Ubuntu 14.04 very
 easily using the Synaptic package manager; no custom configuration required.)
 
-### Going further
+## Going further
 
 To go further and learn more about how to exploit Coq for theorem proving and
 functional programming, I highly recommend reading (and solving the
@@ -100,10 +100,11 @@ this problem:
    at 
 
 
-### Going even further
+## Going even further
 
-One of our goals is to implement some mathematics in Coq, both to help us
-better understand what we are doing and to (hopefully) help us push it further.
+One goal of the TypeFunc group is to implement certain mathematical theories 
+in Coq, both to help us better understand what we are doing 
+and to help push it further. 
 
 After learning the basics of Coq, members of the group may wish to try codifying
 some general algebraic structures as *dependent types* or *records* in Coq.
@@ -128,13 +129,13 @@ are probably good places to start:
    [his phd thesis](http://www.cs.nott.ac.uk/~vxc/publications/Abstraction_Computation.pdf).
    Lots more info is available on [his homepage](http://www.duplavis.com/venanzio/).
 
-3. [UniMath](https://github.com/UniMath/UniMath) is a Coq library aiming to formalize mathematics using the 
+3. [UniMath](https://github.com/UniMath/UniMath) is a Coq library that aims to formalize mathematics using the 
    univalent (HoTT) point of view.
 
 
-### distributing your masterpiece
+## Distributing your masterpiece
 
-Once you have created something worthy of your immense talent, you might read
+Once you create a Coq package that reflects your immense talent, you might read
 [this tutorial](http://coq-blog.clarus.me/make-a-coq-package.html) that explains how to
 roll your own Coq package and distribute it to the world via opam. Of course, you could simply 
 distribute it on your own website or github, but making an opam package gives your code
