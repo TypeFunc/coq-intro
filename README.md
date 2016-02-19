@@ -69,8 +69,8 @@ easily using the Synaptic package manager; no custom configuration required.)
 ## Going further
 
 To go further and learn more about how to exploit Coq for theorem proving and
-functional programming, I highly recommend reading (and solving the
-exercises in) the first 5 or 6 chapters of the book, "Software Foundations."
+functional programming, I highly recommend working through the
+exercises in the first 6 or 7 chapters of the book, "Software Foundations."
 
 This SF book is an outstanding resource.  Not only is it well written and
 accessible, even to non-computer scientists, but also it's fun to read because
